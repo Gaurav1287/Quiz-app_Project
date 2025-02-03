@@ -1,0 +1,415 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+/* LandingPage.css */
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section {
+  background: #f0f0f0;
+  padding: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cta-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.about-section {
+  margin-top: 40px;
+}
+.Qcontainer {
+
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.Qquestion {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.Qtimer {
+  font-size: 18px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.Qprogress-container {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.Qprogress-bar {
+  height: 10px;
+  background-color: green;
+  transition: width 0.5s ease-in-out;
+}
+
+.Qoptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #28a745;
+  width: 60%;
+  margin-left: 300px;
+}
+
+.Qoption-button {
+  width: 80%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #0f0202;
+  transition: background 0.3s ease;
+}
+
+.Qoption-button:hover {
+  background-color: #dddddd;
+}
+
+.Qoption-button.correct {
+  background-color: #4caf50 !important; /* Green */
+  color: white;
+}
+
+.Qoption-button.incorrect {
+  background-color: #f44336 !important; /* Red */
+  color: white;
+}
+
+.Qoption-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
+.hcontainer {
+  max-width: 600px;
+  margin: auto;
+  margin-top:50px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.htitle {
+  font-size: 26px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hinstructions {
+  text-align: left;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+ 
+}
+
+.hinstructions h3 {
+  font-size: 20px;
+  color: #03C1C0;
+  margin-bottom: 10px;
+}
+
+.hinstructions ul {
+  padding-left: 20px;
+}
+
+.hinstructions li {
+  font-size: 20px;
+  line-height:50px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.hstart-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background: #03C1C0;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hstart-button:hover {
+  background: #028f8e;
+}
+.result-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.result-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.progress-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+}
+
+.progress-circle svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.progress-bg {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 10;
+}
+
+.progress-fill {
+  fill: none;
+  stroke: #4caf50;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result-score {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.result-message {
+  font-size: 18px;
+  font-style: italic;
+  color: #666;
+}
+
+.result-buttons {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s ease;
+}
+
+.play-again {
+  background-color: #2196f3;
+  color: white;
+}
+
+.play-again:hover {
+  background-color: #0b7dda;
+}
+
+.leaderboard {
+  background-color: #fbc02d;
+  color: black;
+}
+
+.leaderboard:hover {
+  background-color: #f9a825;
+}
+.dashboard-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.user-profile {
+  padding: 20px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #03C1C0;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-email,
+.user-tests {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.achievements,
+.leaderboard {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f4f4f4;
+}
+
+.achievements h3,
+.leaderboard h3 {
+  color: #03C1C0;
+  font-size: 18px;
+}
+
+.achievement-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  list-style: none;
+}
+
+.no-achievements {
+  font-size: 14px;
+  color: gray;
+}
+
+.leaderboard-item {
+  font-size: 16px;
+  color: #444;
+  list-style: none;
+}
+
+.dashboard-buttons {
+  margin-top: 20px;
+}
+
+.play-again,
+.logout {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s ease;
+}
+
+.play-again {
+  background-color: #03C1C0;
+  color: white;
+}
+
+.play-again:hover {
+  background-color: #029a9a;
+}
+
+.logout {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.logout:hover {
+  background-color: #cc0000;
+}
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.leaderboard-table th {
+  background-color: #03C1C0;
+  color: white;
+}
+
+.achievement-item {
+  font-weight: bold;
+  color: green;
+}
+
